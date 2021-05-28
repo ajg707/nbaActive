@@ -1,0 +1,21 @@
+{
+  "name": "graphql-server-example",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "apollo-server": "^2.24.1",
+    "codesandbox": "^2.2.3",
+    "graphql": "^15.5.0",
+    "json-to-graphql-query": "^2.0.0"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js localhost 4000"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/graphql": "14.0.1",
+    "nodemon": "1.18.4"
+  }
+}
